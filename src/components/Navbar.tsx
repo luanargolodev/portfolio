@@ -20,8 +20,11 @@ export function Navbar() {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-dark-900/80 backdrop-blur-lg border-b border-dark-600/50">
       <div className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
-        <a href="#" className="flex items-center">
-          <img src="/logo.svg" alt="Luan Lemos" className="h-8 md:h-10 w-auto" />
+        <a href="#" className="flex items-center gap-2 text-white font-bold text-lg">
+          <svg width="24" height="24" viewBox="0 0 48 46" fill="none">
+            <path fill="#6366f1" d="M25.946 44.938c-.664.845-2.021.375-2.021-.698V33.937a2.26 2.26 0 0 0-2.262-2.262H10.287c-.92 0-1.456-1.04-.92-1.788l7.48-10.471c1.07-1.497 0-3.578-1.842-3.578H1.237c-.92 0-1.456-1.04-.92-1.788L10.013.474c.214-.297.556-.474.92-.474h28.894c.92 0 1.456 1.04.92 1.788l-7.48 10.471c-1.07 1.498 0 3.579 1.842 3.579h11.377c.943 0 1.473 1.088.89 1.83L25.947 44.94z"/>
+          </svg>
+          Luan Lemos
         </a>
 
         <div className="hidden md:flex items-center gap-6">

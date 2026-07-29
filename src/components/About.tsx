@@ -6,11 +6,14 @@ export function About() {
           <span className="text-accent text-sm font-mono tracking-widest uppercase">
             Sobre mim
           </span>
+          <h2 className="text-3xl md:text-4xl font-bold text-white mt-3">
+            Quem sou
+          </h2>
         </div>
 
         <div className="bg-dark-700/50 backdrop-blur-sm border border-dark-600/50 rounded-xl p-8 md:p-12">
           <div className="flex flex-col md:flex-row items-center gap-8">
-            <div className="w-24 h-24 md:w-32 md:h-32 rounded-full overflow-hidden shrink-0">
+            <div className="w-24 h-24 md:w-32 md:h-32 rounded-full overflow-hidden shrink-0 ring-2 ring-accent/50">
               <img
                 src="https://avatars.githubusercontent.com/u/10791688"
                 alt="Luan Lemos"
